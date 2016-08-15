@@ -1,0 +1,11 @@
+
+异常时间：2016-08-15 10:28:54,818 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+【附加信息】 : MerchantBll-IsAllowUpdate<br>【异常类型】：NullReferenceException <br>【异常信息】：未将对象引用设置到对象的实例。 <br>【堆栈调用】：   在 TeYou.Billards.Bll.MerchantBll.IsAllowUpdate() 
+ 
+异常时间：2016-08-15 10:28:55,654 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+【附加信息】 : BaseService-GetSearchList,类型： Merchants<br>【异常类型】：EntityException <br>【异常信息】：The underlying provider failed on Open. <br>【堆栈调用】：   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()<br>   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)<br>   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)<br>   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()<br>   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)<br>   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)<br>   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()<br>   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()<br>   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)<br>   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)<br>   在 TeYou.Billards.Service.Common.BaseService`3.GetSearchList(Expression`1 where) 
+ 

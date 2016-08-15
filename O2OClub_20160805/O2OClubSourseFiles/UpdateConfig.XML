@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UpdateInfo>
+  <!--更新url地址-->
+  <UpdateURL>http://121.41.99.44:10001/api/version/Billiards/1?version=</UpdateURL>
+  <!--当前程序版本-->
+  <CurrentVersion>1.0.0</CurrentVersion>
+  <!--更新内容-->
+  <UpdateContent>1.增加外卖功能;2.收台待结页面有更新;3.增加球台宝贝看台功能,看台根据每个球台宝贝设置收费价格,然后费用一并计算到消费者总费用里面;4.增加语音消息提醒功能;5.增加工作人员记账功能;6.增加各种收费方式显示功能;</UpdateContent>
+  <!--当前主程序名字-->
+  <AppName>TeYou.Billards.PC</AppName>
+  <!--文件临时保存文件夹-->
+  <TempFile></TempFile>
+</UpdateInfo>
